@@ -1,7 +1,8 @@
 .vegetables{
-    background-color: #eb4d4b;
+    background-color: #ff7675;
     width: 50%;
     height: 90vh;
+    border: 5px solid black;
 
 }
 .itemlist{

@@ -2,6 +2,7 @@
     background-color: #ff7675;
     width: 50%;
     height: 90vh;
+    border: 5px solid black;
 }
 .item{
     font-size: medium;
