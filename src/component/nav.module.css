@@ -1,0 +1,10 @@
+.nav{
+  position: fixed;
+  background-color: black;
+  color: white;
+  height: 10vh;
+  width: 100%;
+}
+.heading{
+    padding: 1% 0% ;
+}

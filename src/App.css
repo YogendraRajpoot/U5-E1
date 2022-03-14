@@ -8,16 +8,12 @@
   display: flex;
   flex-direction: column;
 }
-.top{
-  position: fixed;
-  background-color: black;
-  color: white;
-  height: 8vh;
-  width: 100%;
-}
+/* .top{
+  
+} */
 .bottom{
   position: relative;
   display: flex;
   flex-direction: row;
-  margin-top: 4%;
+  margin-top: 5%;
 }
