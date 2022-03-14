@@ -10,6 +10,7 @@ export const Vegetables = () => {
   return (
     <div className={style.vegetables}>
       <h1>Vegetables</h1>
+      <br />
       <div className={style.itemlist}>
         <ul>
           <li>

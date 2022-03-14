@@ -8,3 +8,15 @@
     font-size: medium;
     font-weight: 600;
 }
+
+.h2{
+    margin-top: 2%;
+}
+.btn{
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+.input{
+    padding: .5%;
+}

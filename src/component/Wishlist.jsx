@@ -26,9 +26,10 @@ export const Wishlist = () => {
   return (
     <div className={styles.wishlist}>
       <h1>Wishlist</h1>
-      <input type="text" onChange={inputChange} value={item} />
-      <button onClick={addList}>Add Item</button>
-      <h3>Item Added</h3>
+      <br />
+      <input type="text" onChange={inputChange} value={item} className={styles.input}/>
+      <button onClick={addList} className={styles.btn}>Add </button>
+      <h2 className={styles.h2}>Item Added</h2>
       {list.map(({ buyitem }, idx) => (
         <div className={styles.item} key={idx}>{`${buyitem}`}</div>
       ))}
