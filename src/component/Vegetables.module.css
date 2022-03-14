@@ -4,3 +4,22 @@
     height: 90vh;
 
 }
+.itemlist{
+    border: 2px solid black;
+    width: 60%;
+    margin-left: 20%;
+    height: 50%;
+    font-size: larger;
+    font-weight: 600;
+    
+}
+.itemlist>ul>li{
+    list-style: none;
+    margin-top: 2%;
+}
+ .btn{
+     padding: 2%;
+     margin-top: 1%;font-size: large;
+     margin-left: 1%;
+     border-radius: 50%;
+ }

@@ -27,10 +27,10 @@ export const Wishlist = () => {
     <div className={styles.wishlist}>
       <h1>Wishlist</h1>
       <input type="text" onChange={inputChange} value={item} />
-      <button onClick={addList}>Add Todo</button>
+      <button onClick={addList}>Add Item</button>
       <h3>Item Added</h3>
       {list.map(({ buyitem }, idx) => (
-        <div key={idx}>{`${buyitem}`}</div>
+        <div className={styles.item} key={idx}>{`${buyitem}`}</div>
       ))}
     </div>
   );
