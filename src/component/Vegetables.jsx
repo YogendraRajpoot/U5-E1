@@ -13,26 +13,26 @@ export const Vegetables = () => {
       <div className={style.itemlist}>
         <ul>
           <li>
-            Tomatoes : {item1}
+            Tomatoes : {item1} KG
             <br />
             <button className={style.btn} onClick={() => setItem1(item1 + 1)}>+</button>
             <button className={style.btn} onClick={() => setItem1(item1 - 1)}>-</button>
           </li>
 
           <li>
-            Potatoes : {item2}
+            Potatoes : {item2} KG
             <br />
             <button className={style.btn} onClick={() => setItem2(item2 + 1)}>+</button>
             <button className={style.btn} onClick={() => setItem2(item2 - 1)}>-</button>
           </li>
           <li>
-            Carrots : {item3}
+            Carrots : {item3} KG
             <br />
             <button className={style.btn} onClick={() => setItem3(item3 + 1)}>+</button>
             <button className={style.btn} onClick={() => setItem3(item3 - 1)}>-</button>
           </li>
           <li>
-            Onions : {item4}
+            Onions : {item4} KG
             <br />
             <button className={style.btn} onClick={() => setItem4(item4 + 1)}>+</button>
             <button className={style.btn} onClick={() => setItem4(item4 - 1)}>-</button>
